@@ -5,7 +5,7 @@ import Main from "./Component/Main";
 import Card from "./Component/Card";
 import Meta from "./Component/Meta";
 import Footer from "./Component/Footer";
-import Popup from "./Component/Popup";
+// import Popup from "./Component/Popup";
 
 
 
@@ -24,7 +24,7 @@ function App() {
 
     <Footer />
 
-    <Popup />
+  
     </>
   );
 }
