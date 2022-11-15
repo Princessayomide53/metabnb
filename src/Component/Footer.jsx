@@ -9,7 +9,7 @@ function Footer() {
     <div className="overflow-hidden">
       <div className=" grid-cols-1">
         <div className=" bg-black grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 gap-8  lg:space-x-28 xl:space-x-28 2xl:space-x-28">
-          <div className="w-56 lg:h-72 h-48 pl-10 lg:pl-5 xl:pl-5 2xl:pl-5 md:pl-5">
+          <div className="w-56 lg:h-72 h-48 pl-5 lg:pl-5 xl:pl-5 2xl:pl-5 md:pl-5">
             <div className="flex lg:p-5 lg:pl-12 lg:pt-14 pt-5 pl-1">
               <img src={Vector} alt="" />
               <p className="text-white font-bold text-4xl">Metabnb</p>
