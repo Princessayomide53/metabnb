@@ -38,7 +38,9 @@ function Nav2() {
 
           <div className="hidden lg:block xl:block 2xl:block">
             <ul className=" lg:space-y-0 lg:space-x-16 xl:space-x-28 2xl:space-x-28 text-[#434343] font-normal text-xl leading-6 pt-3 lg:flex">
-              <li className="hover:underline decoration-inherit">Home</li>
+              <li className="hover:underline decoration-inherit">
+                <a href={`home`}>Home</a>
+              </li>
               <li className="hover:underline decoration-inherit">
                 <a href={`place`}>Place to stay</a>
               </li>
@@ -83,24 +85,24 @@ function Nav2() {
           </div>
         </div>
       </div>
-    
-          
-      <div className="pt-20 gap-5 flex justify-center flex-wrap font-bold lg:justify-evenly text-[#434343] lg:text-base md:text-sm text-sm leading-5 lg:font-normal">
-                 <p>Restuarant</p>
-                 <p>Cottage</p>
-                 <p>Castle</p>
-                 <p>fantast city</p>
-                <p>beach</p>
-                <p>Carbins</p>
-                <p>Off-grid</p>
-             <p>Farm</p>
 
-                <div className="mt-1 lg:mt-0 md:-mt-2">
-                   <button className="lg:px-5 flex lg:gap-2 gap-1 font-bold lg:py-1 -mt-1 md:px-5 md:py-2 hover:underline decoration-white text-[#434343] lg:text-base  md:text-sm text-xs leading-4 lg:font-normal border-2 px-3 py-1 border-inherit">Location <GoSettings size={18} className="lg:mt-1" /></button>
-                </div>
+      <div className="pt-20 gap-5 flex justify-center flex-wrap font-bold lg:justify-evenly text-[#434343] lg:text-base md:text-sm text-sm leading-5 lg:font-normal">
+        <p>Restuarant</p>
+        <p>Cottage</p>
+        <p>Castle</p>
+        <p>fantast city</p>
+        <p>beach</p>
+        <p>Carbins</p>
+        <p>Off-grid</p>
+        <p>Farm</p>
+
+        <div className="mt-1 lg:mt-0 md:-mt-2">
+          <button className="lg:px-5 flex lg:gap-2 gap-1 font-bold lg:py-1 -mt-1 md:px-5 md:py-2 hover:underline decoration-white text-[#434343] lg:text-base  md:text-sm text-xs leading-4 lg:font-normal border-2 px-3 py-1 border-inherit">
+            Location <GoSettings size={18} className="lg:mt-1" />
+          </button>
         </div>
       </div>
-      
+    </div>
   );
 }
 export default Nav2;

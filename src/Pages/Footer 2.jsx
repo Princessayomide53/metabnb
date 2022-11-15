@@ -34,7 +34,7 @@ function Footer2() {
             <p className="text-sm leading-7 font-normal pb-2">Discord</p>
           </div>
 
-          <div className="w-32 lg:h-72 h-44 text-white lg:pt-16 pl-10 lg:pl-0 xl:pl-0 2xl:pl-0 md:pt-0 pt-0">
+          <div className="w-32 lg:h-72 h-44 text-white lg:pt-16 pl-5 lg:pl-0 xl:pl-0 2xl:pl-0 md:pt-0 pt-0">
             <p className="text-lg leading-5 font-bold pb-5">Places</p>
             <p className="text-sm leading-7 font-normal pb-2">Castle</p>
             <p className="text-sm leading-7 font-normal pb-2">Farms</p>
@@ -42,7 +42,7 @@ function Footer2() {
             <p className="text-sm leading-7 font-normal pb-5">Learn more</p>
           </div>
 
-          <div className="w-32 lg:h-72 h-44 text-white pl-10 lg:pl-0 xl:pl-0 2xl:pl-0 lg:pt-16 md:pt-0 pt-0">
+          <div className="w-32 lg:h-72 h-44 text-white pl-5 lg:pl-0 xl:pl-0 2xl:pl-0 lg:pt-16 md:pt-0 pt-0">
             <p className="text-lg leading-5 font-bold pb-5">About us</p>
             <p className="text-sm leading-7 font-normal pb-2">Road map</p>
             <p className="text-sm leading-7 font-normal pb-2">Creators</p>
