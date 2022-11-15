@@ -64,7 +64,9 @@ function Nav2() {
               </h1>
             </div>
             <ul className="text-[#434343] font-normal text-xl  leading-6">
-              <li className="hover:underline decoration-inherit pb-8">Home</li>
+              <li className="hover:underline decoration-inherit pb-8">
+                <a href={`home`}>Home</a>
+              </li>
               <li className="hover:underline decoration-inherit pb-8">
                 <a href={`place`}>Place to stay</a>
               </li>
