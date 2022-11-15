@@ -19,7 +19,7 @@ function Nav() {
       <div className="lg:space-y-0 lg:flex lg:pt-1 lg:pl-10">
         <div className="lg:flex lg:gap-24 xl:gap-32 2xl:gap-32">
           <div className="flex justify-between">
-            <div className="flex lg:pl-0 pl-5">
+            <div className="flex lg:pl-0 pl-5  mt-5 lg:mt-0 2xl:mt-0 xl:mt-0 ">
               <img src={Vector} alt="" className="w-10 h-10 lg:mt-3 mt-1" />
               <h1 className="font-bold lg:text-4xl text-3xl md:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-[#DC3E88] to-[#843FE8] mt-2">
                 Metabnb
@@ -50,7 +50,7 @@ function Nav() {
           <div
             className={
               !nav
-                ? " flex-col left-0 top-0 -mt-5 space-y-10 lg:hidden xl:hidden 2xl:hidden  w-[90%] h-full fixed bg-white ease-in-out duration-500 p-5"
+                ? " flex-col left-0 top-0 -mt-5 space-y-10 lg:hidden xl:hidden 2xl:hidden  w-[90%] h-screen fixed bg-white ease-in-out duration-500 p-5"
                 : "ease-in-out duration-200 fixed left-[-100%]"
             }
           >
