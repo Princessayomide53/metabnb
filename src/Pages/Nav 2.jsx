@@ -4,10 +4,9 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 import Button from "../Component/Button";
 import Modal from "../Component/Modal";
-import {GoSettings} from 'react-icons/go'
+import { GoSettings } from "react-icons/go";
 
 function Nav2() {
-
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -38,7 +37,10 @@ function Nav2() {
 
           <div className="hidden lg:block xl:block 2xl:block">
             <ul className=" lg:space-y-0 lg:space-x-16 xl:space-x-28 2xl:space-x-28 text-[#434343] font-normal text-xl leading-6 pt-3 lg:flex">
-              <li className="hover:underline decoration-inherit">
+              <li
+                onClick={() => setNav(false)}
+                className="hover:underline decoration-inherit"
+              >
                 <a href={`home`}>Home</a>
               </li>
               <li className="hover:underline decoration-inherit">

@@ -37,7 +37,7 @@ function Nav() {
           <div className="hidden lg:block xl:block 2xl:block">
             <ul className=" lg:space-y-0 lg:space-x-16 xl:space-x-28 2xl:space-x-28 text-[#434343] font-normal text-xl leading-6 pt-3 lg:flex">
               <li className="hover:underline decoration-inherit">Home</li>
-              <li className="hover:underline decoration-inherit">
+              <li onClick={() => setNav(true)} className="hover:underline decoration-inherit">
                 <a href={`place`}>Place to stay</a>
               </li>
               <li className="hover:underline decoration-inherit">NFTs</li>
