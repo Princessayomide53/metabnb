@@ -5,7 +5,7 @@ function Main() {
     return(
         <div className="overflow-hidden">
      <div className="lg:flex justify-between  md:flex md:gap-2 p-3 lg:p-5 pl-7  xl:p-5 2xl:p-5">
-    <div className="mt-3 block">
+    <div className="mt-10 block">
     <div className="font-bold lg:text-5xl pt-3 lg:pt-10 text-3xl md:text-3xl xl:text-5xl 2xl:text-5xl text-[#434343] leading-5 ">
     <h1 className="head1">Rent a <span className="text-[#A02279]">Place</span> away from <br /> <span className="text-[#A02279]">Home</span> in the <span className="text-[#A02279]">Metaverse</span></h1>
     </div>

@@ -8,8 +8,8 @@ function Footer() {
   return (
     <div className="overflow-hidden">
       <div className=" grid-cols-1">
-        <div className=" bg-black grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 gap-8 place-items-center lg:space-x-28 xl:space-x-28 2xl:space-x-28">
-          <div className="w-56 lg:h-72 h-48 pl-5 md:pl-5">
+        <div className=" bg-black grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 gap-8  lg:space-x-28 xl:space-x-28 2xl:space-x-28">
+          <div className="w-56 lg:h-72 h-48 pl-10 lg:pl-5 xl:pl-5 2xl:pl-5 md:pl-5">
             <div className="flex lg:p-5 lg:pl-12 lg:pt-14 pt-5 pl-1">
               <img src={Vector} alt="" />
               <p className="text-white font-bold text-4xl">Metabnb</p>
@@ -26,7 +26,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="w-32 lg:h-72 h-52 text-white lg:pt-16 pt-8 md:pt-5">
+          <div className="w-32 lg:h-72 h-52 pl-10 lg:pl-0 xl:pl-0 2xl:pl-0 text-white lg:pt-16 pt-8 md:pt-5">
             <p className="text-lg leading-5 font-bold pb-5 pt-2">Community</p>
             <p className="text-sm leading-7 font-normal pb-2">Nfts</p>
             <p className="text-sm leading-7 font-normal pb-2">Tokens</p>
@@ -34,7 +34,7 @@ function Footer() {
             <p className="text-sm leading-7 font-normal pb-2">Discord</p>
           </div>
 
-          <div className="w-32 lg:h-72 h-44 text-white lg:pt-16 md:pt-0 pt-0">
+          <div className="w-32 lg:h-72 h-44 pl-10 lg:pl-0 xl:pl-0 2xl:pl-0 text-white lg:pt-16 md:pt-0 pt-0">
             <p className="text-lg leading-5 font-bold pb-5">Places</p>
             <p className="text-sm leading-7 font-normal pb-2">Castle</p>
             <p className="text-sm leading-7 font-normal pb-2">Farms</p>
@@ -42,7 +42,7 @@ function Footer() {
             <p className="text-sm leading-7 font-normal pb-2">Learn more</p>
           </div>
 
-          <div className="w-32 lg:h-72 h-44 md:h-44 text-white lg:pt-16 md:pt-0 pt-0">
+          <div className="w-32 lg:h-72 h-44 pl-10 lg:pl-0 xl:pl-0 2xl:pl-0 md:h-44 text-white lg:pt-16 md:pt-0 pt-0">
             <p className="text-lg leading-5 font-bold pb-5">About us</p>
             <p className="text-sm leading-7 font-normal pb-2">Road map</p>
             <p className="text-sm leading-7 font-normal pb-2">Creators</p>
