@@ -1,4 +1,5 @@
 import React from "react";
+import { GoSettings } from "react-icons/go";
 import Nft5 from "../Img/Nft5 5.png";
 import Nft6 from "../Img/Nft6 6.png";
 import Nft7 from "../Img/Nft7 7.png";
@@ -20,6 +21,24 @@ import New8 from "../Img/New8 8.png";
 function Card2() {
   return (
     <div className="overflow-hidden">
+
+     <div className="lg:pt-32 xl:pt-32 2xl:pt-32 pt-20 gap-5 flex justify-center flex-wrap font-bold lg:justify-evenly text-[#434343] lg:text-base md:text-sm text-sm leading-5 lg:font-normal">
+        <p>Restuarant</p>
+        <p>Cottage</p>
+        <p>Castle</p>
+        <p>fantast city</p>
+        <p>beach</p>
+        <p>Carbins</p>
+        <p>Off-grid</p>
+        <p>Farm</p>
+
+        <div className="mt-1 lg:mt-0 md:-mt-2">
+          <button className="lg:px-5 flex lg:gap-2 gap-1 font-bold lg:py-1 -mt-1 md:px-5 md:py-2 hover:underline decoration-white text-[#434343] lg:text-base  md:text-sm text-xs leading-4 lg:font-normal border-2 px-3 py-1 border-inherit">
+            Location <GoSettings size={18} className="lg:mt-1" />
+          </button>
+        </div>
+  
+
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 place-items-center md:gap-10 gap-14 p-5 lg:gap-12 lg:place-content-around mt-5 mb-20">
         <div className="w-72 h-96 xl:w-72 2xl:w-72 xl:h-96 lg:w-56 lg:h-80 bg-white border-2 border-[#D7D7D7] rounded-2xl">
           <center>
@@ -428,7 +447,8 @@ function Card2() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+      </div>
   );
 }
 export default Card2;

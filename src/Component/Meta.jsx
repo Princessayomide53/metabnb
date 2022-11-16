@@ -26,7 +26,7 @@ function Meta(){
           </div>
 
           
-            <div className="mt-5 md:mt-8 lg:pb-20 xl:pb-20 2xl:pb-20 md:pb-20 pb-10 md:w-96 lg:w-[60%] xl:w-[60%] 2xl:w-[70%] w-80">
+            <div className="mt-5 mx-auto md:mt-8 lg:pb-20 xl:pb-20 2xl:pb-20 md:pb-20 pb-10 md:w-96 lg:w-[60%] xl:w-[60%] 2xl:w-[70%] w-96">
               <img src={Bnb} alt="" />
             </div>
          

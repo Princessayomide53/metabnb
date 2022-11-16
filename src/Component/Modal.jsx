@@ -9,10 +9,10 @@ const Modal = ({ open, onClose }) => {
 
   return (
     <div className="flex flex-col justify-center items-center fixed bg-[#7c7979] bg-opacity-60 inset-0 w-full h-screen">
-      <div className="absolute top-[28%] left-[18%] lg:top-[28%] lg:left-[31%] xl:top-[28%] xl:left-[31%] 2xl:top-[28%] 2xl:left-[31%] w-full">
+      <div className="absolute top-[28%] left-[14%] lg:top-[28%] lg:left-[31%] xl:top-[28%] xl:left-[31%] 2xl:top-[28%] 2xl:left-[31%] w-full">
         <div
           class="modal"
-          className="lg:w-[45%] xl:w-[40%] w-[88%] fixed md:w-[60%] h-60 rounded-xl p-4 pt-3 bg-white"
+          className="lg:w-[45%] xl:w-[40%] w-[75%] fixed md:w-[60%] h-60 rounded-xl p-4 pt-3 bg-white"
         >
           <div className="flex justify-between border-full font-bold border-b-2 border-inherit">
             <p className="text-2xl leading-6 text-[#333333] pb-4 pl-5">

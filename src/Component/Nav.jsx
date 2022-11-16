@@ -4,6 +4,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 import Button from "./Button";
 import Modal from "./Modal";
+import { Link } from "react-router-dom";
 
 function Nav() {
   const [nav, setNav] = useState(false);
@@ -36,10 +37,15 @@ function Nav() {
 
           <div className="hidden lg:block xl:block 2xl:block">
             <ul className=" lg:space-y-0 lg:space-x-16 xl:space-x-28 2xl:space-x-28 text-[#434343] font-normal text-xl leading-6 pt-3 lg:flex">
-              <li className="hover:underline decoration-inherit">Home</li>
-              <li onClick={() => setNav(true)} className="hover:underline decoration-inherit">
-                <a href={`place`}>Place to stay</a>
-              </li>
+              <Link to="/">
+                <li className="hover:underline decoration-inherit">Home</li>
+              </Link>
+
+              <Link to="/place">
+                <li className="hover:underline decoration-inherit">
+                  Place to stay
+                </li>
+              </Link>
               <li className="hover:underline decoration-inherit">NFTs</li>
               <li className="hover:underline decoration-inherit">Comunity</li>
               <Button />
@@ -49,21 +55,29 @@ function Nav() {
           <div
             className={
               !nav
-                ? " flex-col left-0 top-0 -mt-5 space-y-10 lg:hidden xl:hidden 2xl:hidden  w-[100%] h-full fixed bg-white ease-in-out duration-500 p-5"
-                : "ease-in-out duration-200 fixed left-[-100%]"
+                ? " flex-col top-0 -mt-5 space-y-10 top-[100%] h-screen w-[100%] lg:hidden xl:hidden 2xl:hidden  fixed bg-white ease-in-out duration-500 p-5"
+                : " left-0 "
             }
           >
             <div className="flex pt-1">
-              <img src={Vector} alt="" className="w-10 h-10 mt-1" />
-              <h1 className="font-bold lg:text-4xl text-3xl md:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-[#DC3E88] to-[#843FE8] mt-2">
-                Metabnb
-              </h1>
             </div>
-            <ul className="text-[#434343] font-normal text-xl  leading-6">
-              <li className="hover:underline decoration-inherit pb-8">Home</li>
-              <li className="hover:underline decoration-inherit pb-8">
-                <a href={`place`}>Place to stay</a>
+            <ul className="text-[#434343] md:text-center md:-mt-2 font-normal  p-5 text-xl  leading-6">
+              <Link to="/">
+                <li
+                  onClick={() => setNav(false)}
+                  className="hover:underline decoration-inherit pb-8"
+                >
+                  Home
+                </li>
+              </Link>
+
+              <li
+                onClick={() => setNav(!nav)}
+                className="hover:underline decoration-inherit pb-8"
+              >
+                <a href={`/place`}>Place to stay</a>
               </li>
+              
               <li className="hover:underline decoration-inherit pb-8">NFTs</li>
               <li className="hover:underline decoration-inherit pb-8">
                 Comunity

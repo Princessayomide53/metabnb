@@ -1,17 +1,18 @@
-import React from "react"
-import Nav2 from "./Nav 2"
+import React from "react";
+import Nav from "../Component/Nav";
 import Card2 from "./Card 2";
-import Footer2 from "./Footer 2"
+import Footer2 from "./Footer 2";
 
-function Place(){
-    return(
+function Place() {
+  console.log("place page");
+  return (
     <>
-  <Nav2 />
+      <Nav />
 
-<Card2 />
+      <Card2 />
 
-<Footer2 />
+      <Footer2 />
     </>
-    )
+  );
 }
-export default Place
+export default Place;
